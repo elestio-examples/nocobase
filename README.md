@@ -10,7 +10,7 @@ Deploy Nocobase server with CI/CD on Elestio
 
 # Once deployed ...
 
-You can can open Nocobase UI here:
+You can open Nocobase UI here:
 
     URL: https://[CI_CD_DOMAIN]
     email: [ADMIN_EMAIL]
