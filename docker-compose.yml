@@ -19,7 +19,7 @@ services:
       - "172.17.0.1:13000:80"
 
   postgres:
-    image: postgres:${SOFTWARE_VERSION_TAG}
+    image: postgres:latest
     restart: always
     environment:
       POSTGRES_DB: nocobase
