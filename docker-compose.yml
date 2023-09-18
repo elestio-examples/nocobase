@@ -19,7 +19,7 @@ services:
       - "172.17.0.1:13000:80"
 
   postgres:
-    image: postgres:latest
+    image: postgres:15
     restart: always
     environment:
       POSTGRES_DB: nocobase
